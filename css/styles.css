@@ -6,19 +6,17 @@ body {
 }
 
 .gallery {
-  padding: 16px;
+  padding: 24px;
   list-style: none;
-  margin: 0;
+  margin: 0px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 24px;
 }
 
 .gallery-item {
   overflow: hidden;
   width: calc(33.33% - 16px);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .gallery-link {
